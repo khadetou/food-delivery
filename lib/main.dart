@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.grey[50],
         primaryColor: Colors.deepOrangeAccent,
         primaryColorLight: Colors.red,
-        brightness: Brightness.dark,
       ),
       home: HomeScreen(),
     );
