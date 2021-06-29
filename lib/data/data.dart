@@ -22,7 +22,7 @@ final _salmon = Food(
     name: 'Salmon Salad',
     price: 12.99);
 final _steak =
-    Food(imageUrl: '../../asset/images/steak.jpg', name: 'Steak', price: 12.99);
+    Food(imageUrl: '../../asset/images/steak.jpg', name: 'Steak', price: 17.99);
 
 //Restaurants
 final _restaurant0 = Restaurant(
