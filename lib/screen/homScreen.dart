@@ -4,6 +4,7 @@ import '../data/data.dart';
 import '../widgets/recent_orders.dart';
 import '../models/restaurant.dart';
 import './restaurantScreen.dart';
+import 'cartScreen.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({Key? key}) : super(key: key);
@@ -112,7 +113,12 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         actions: [
           TextButton(
-            onPressed: () => {},
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (_) => CartScreen(),
+              ),
+            ),
             style: TextButton.styleFrom(
               primary: Colors.white,
               textStyle: const TextStyle(fontSize: 20.0),
