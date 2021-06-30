@@ -74,7 +74,7 @@ final _restaurant4 = Restaurant(
     ],
     rating: 5);
 
-final List<Restaurant> restaurant = [
+final List<Restaurant> restaurants = [
   _restaurant0,
   _restaurant1,
   _restaurant2,
