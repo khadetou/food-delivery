@@ -7,10 +7,11 @@ class Restaurant {
   final int rating;
   final List<Food> menu;
 
-  Restaurant(
-      {required this.imageUrl,
-      required this.name,
-      required this.address,
-      required this.menu,
-      required this.rating});
+  Restaurant({
+    required this.imageUrl,
+    required this.name,
+    required this.address,
+    required this.menu,
+    required this.rating,
+  });
 }
