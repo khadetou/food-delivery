@@ -5,5 +5,9 @@ class User {
   final List<Order> order;
   final List<Order> cart;
 
-  User({required this.name, required this.order, required this.cart});
+  User({
+    required this.name,
+    required this.order,
+    required this.cart,
+  });
 }

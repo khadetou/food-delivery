@@ -147,7 +147,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     Radius.circular(30.0),
                   ),
                   borderSide: BorderSide(
-                      width: 0.8, color: Theme.of(context).primaryColor),
+                    width: 0.8,
+                    color: Theme.of(context).primaryColor,
+                  ),
                 ),
                 hintText: 'Search Food or Restaurant',
                 prefixIcon: Icon(
